@@ -1,0 +1,20 @@
+{
+  "groups": [
+    {
+      "name": "amazon",
+      "type": "com.example.readinglistdemo2.ReadingListController",
+      "sourceType": "com.example.readinglistdemo2.ReadingListController"
+    },
+    {
+      "name": "amazon",
+      "type": "com.example.readinglistdemo2.AmazonProperties",
+      "sourceType": "com.example.readinglistdemo2.AmazonProperties"
+    }
+  ],
+  "properties": [{
+    "name": "amazon.associate-id",
+    "type": "java.lang.String",
+    "sourceType": "com.example.readinglistdemo2.AmazonProperties"
+  }],
+  "hints": []
+}
