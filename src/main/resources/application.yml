@@ -14,7 +14,7 @@ spring:
 spring:
   profiles: production
   datasource:
-    url: jdbc:postgresql://localhost:5432/readinglist?
+    url: jdbc:postgresql://localhost:5432/readinglist
     username: postgres
     password: Garrison29
   jpa:
