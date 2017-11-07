@@ -14,9 +14,9 @@ spring:
 spring:
   profiles: production
   datasource:
-    url: jdbc:postgresql://localhost:5432/?
-    username: postgres
-    password: Garrison29
+    url: jdbc:postgresql://localhost:5432/readinglist
+    username: 
+    password: 
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
 
