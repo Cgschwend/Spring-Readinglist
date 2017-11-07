@@ -55,7 +55,7 @@ dependencies {
     compile("org.liquibase:liquibase-core")
 
 
-    testCompile("org.springframework.boot:spring-boot-starter-test")
+    Compile("org.springframework.boot:spring-boot-starter-test")
 
 
 
