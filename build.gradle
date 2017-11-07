@@ -73,6 +73,12 @@ task wrapper(type: Wrapper) {
     gradleVersion = '1.12'
 }
 
-task stage(dependsOn: ['build']) {
+task stage(dependsOn: ['build', 'clean'])
+build.mustRunAfter clean
+
+task copyToLib(type: Copy) {
+    into "$buildDir/lib"
+    from(configurations.compile)
 }
 
+stage.dependsOn(copyToLib)
